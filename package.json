@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "os": ["darwin", "linux", "windows", "win32"],
   "cpu": ["x64", "arm64"],
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js --host 0.0.0.0"
   },
