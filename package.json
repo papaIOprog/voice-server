@@ -1,0 +1,12 @@
+{
+  "name": "voice-chat-server",
+  "version": "1.0.0",
+  "os": ["darwin", "linux", "windows", "win32"],
+  "cpu": ["x64", "arm64"],
+  "scripts": {
+    "start": "node server.js --host 0.0.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
